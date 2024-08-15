@@ -1,0 +1,71 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Product",
+    "collectionId": "9d9defa8-7c4f-4273-a65f-94f2149d07fb",
+    "dateExported": "2024-08-14T23:16:48.416Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "b62d99ae-8cce-4028-9bd5-958c3a9d6a92",
+            "colId": "9d9defa8-7c4f-4273-a65f-94f2149d07fb",
+            "containerId": "",
+            "name": "/product",
+            "url": "{{BASE_URL}}/product",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-08-14T23:11:21.656Z",
+            "modified": "2024-08-14T23:11:31.006Z",
+            "headers": []
+        },
+        {
+            "_id": "80bbc509-07a4-445b-ba8b-a1be327b5082",
+            "colId": "9d9defa8-7c4f-4273-a65f-94f2149d07fb",
+            "containerId": "",
+            "name": "/product/list",
+            "url": "{{BASE_URL}}/product/list",
+            "method": "GET",
+            "sortNum": 25000,
+            "created": "2024-08-14T23:12:26.672Z",
+            "modified": "2024-08-14T23:13:12.697Z",
+            "headers": []
+        },
+        {
+            "_id": "e6844927-aaa7-4e0d-b356-09ac5a856506",
+            "colId": "9d9defa8-7c4f-4273-a65f-94f2149d07fb",
+            "containerId": "",
+            "name": "/product",
+            "url": "{{BASE_URL}}/product",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-08-14T23:11:37.504Z",
+            "modified": "2024-08-14T23:11:47.525Z",
+            "headers": []
+        },
+        {
+            "_id": "735dc6af-0578-4140-bb83-ff892363f04f",
+            "colId": "9d9defa8-7c4f-4273-a65f-94f2149d07fb",
+            "containerId": "",
+            "name": "/product",
+            "url": "{{BASE_URL}}/product",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-08-14T23:11:50.464Z",
+            "modified": "2024-08-14T23:11:59.974Z",
+            "headers": []
+        },
+        {
+            "_id": "014b91e1-6933-44f4-a544-69f4eaa6ea0f",
+            "colId": "9d9defa8-7c4f-4273-a65f-94f2149d07fb",
+            "containerId": "",
+            "name": "/product",
+            "url": "{{BASE_URL}}/product",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-08-14T23:12:02.977Z",
+            "modified": "2024-08-14T23:12:10.856Z",
+            "headers": []
+        }
+    ],
+    "ref": "Y-9CPT8A1_kfNLA81HIR4hGWkC_d23bl2INDVSXaPGr3MoV2xbQK7FG18vPy4izT0NNV8_zUwPehF97FfMS6jw"
+}
