@@ -8,11 +8,11 @@ import deleteUser from '../controllers/user/deleteUser.js'
 
 const router = express.Router()
 
-router.get('/:id', userByID)
+router.post('/', createUser)
 
 router.get('/list', userList)
 
-router.post('/', createUser)
+router.get('/:id', userByID)
 
 router.put('/:id', editUser)
 
