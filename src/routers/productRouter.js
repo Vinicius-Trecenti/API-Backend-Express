@@ -8,16 +8,16 @@ import editPhotoProduct from '../controllers/product/editPhotoProduct.js'
 
 const router = express.Router()
 
-router.get('/', productByID)
-
 router.get('/list', productList)
+
+router.get('/:id', productByID)
 
 router.post('/', createProduct)
 
-router.put('/', editProduct)
+router.put('/:id', editProduct)
 
-router.patch('/', editPhotoProduct)
+router.patch('/:id', editPhotoProduct)
 
-router.delete('/', deleteProduct)
+router.delete('/:id', deleteProduct)
 
 export default router
