@@ -1,19 +1,22 @@
 import { remove } from "../../models/userModel.js"
 const deleteUser = async (req, res) => {
-    const { id } = req.params
+    try {
+        const { id } = req.params
+        const user = await remove(+id)
 
-    const user = await remove(+id)
-
-    if (!user) {
-        return res.status(404).json({
-            error: "Usuario não encontrado"
+        return res.json({
+            message: "user removido",
+            user: user
         })
     }
-    
-    return res.json({
-        message: "user removido",
-        user: user
-    })
+    catch (error) {
+        if (error?.code === 'P2025') {
+            return res.status(404).json({
+                error: "Usuario não encontrado"
+            })
+        }
+        next(error)
+    }
 }
 
 export default deleteUser
