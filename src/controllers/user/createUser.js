@@ -8,7 +8,7 @@ const createUser = async (req, res) => {
         if (userValidated?.error) {
             return res.status(400).json({
                 error: "Erro ao criar usuário, verifique os dados!",
-                fieldErrors: userValidated.error.flatten().fieldErrors()
+                fieldErrors: userValidated.error.flatten().fieldErrors
             })
         }
 

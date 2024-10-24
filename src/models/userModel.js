@@ -15,7 +15,7 @@ const userSchema = z.object({
     
     email:
         z.string({ message: "O email deve ser uma string" })
-        .email({ message: "O campo edve ser um email" })
+        .email({ message: "O campo deve ser um email" })
         .max(200, { message: "O email deve ter no maximo 200 caracteres" }),
     
     pass:
